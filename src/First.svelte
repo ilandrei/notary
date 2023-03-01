@@ -18,10 +18,6 @@
     };
 </script>
 
-<svelte:head>
-    <title>Birou Notarial Ilie Cristian</title>
-</svelte:head>
-
 <svelte:window bind:innerHeight />
 
 <div class="page-container">
