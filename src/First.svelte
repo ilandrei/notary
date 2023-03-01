@@ -25,7 +25,7 @@
     <div class="page-gradient" />
     <div class="page-content">
         <div class="title-row" transition:fly={{ y: 100, duration: 1000 }}>
-            <img src="../logo.png" alt="logo" class="big-logo" />
+            <img src="./logo.png" alt="logo" class="big-logo" />
             <div class="title-text">
                 <h2>Birou</h2>
                 <h2>Individual</h2>
