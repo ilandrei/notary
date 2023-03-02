@@ -13,6 +13,7 @@
 	let scrollY = 0;
 </script>
 
+<svelte:window bind:scrollY />
 <!-- Google Tag Manager (noscript) -->
 <!-- svelte-ignore a11y-missing-attribute -->
 <noscript

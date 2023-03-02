@@ -4,6 +4,7 @@
     import Phone from "svelte-material-icons/Phone.svelte";
     import Email from "svelte-material-icons/Email.svelte";
     import MapMarker from "svelte-material-icons/MapMarker.svelte";
+    import ClockTimeNine from "svelte-material-icons/ClockTimeNine.svelte";
 </script>
 
 <div class="page-container">
@@ -13,39 +14,64 @@
         <section>
             <div class="first-section-half section-half">
                 <h1>Contact</h1>
-                <h4>
-                    <Phone size="24px" color="#4f4f4f" /> Mobil:
-                    <a class="contact-link" href="tel:+40-767-23-63-64"
-                        >0767 236 364</a
-                    >
-                    (Notar);
-                    <br />
-                    <Phone size="24px" color="#4f4f4f" /> Mobil:
-                    <a class="contact-link" href="tel:+40-773-80-66-47"
-                        >0773 806 647</a
-                    > (Secretariat)
-                </h4>
-                <h4>
-                    <Email size="24px" color="#4f4f4f" /> Email:
-                    <a
-                        class="contact-link"
-                        href="mailto: notariliecristian@gmail.com"
-                        >notariliecristian@gmail.com</a
-                    >
-                </h4>
-                <h4>
-                    <MapMarker size="24px" color="#4f4f4f" /> Adresa:
-                    <a
-                        class="contact-link"
-                        href="https://www.google.com/maps/place/Bloc+2,+Strada+13+Decembrie+24,+Bra%C8%99ov+500199/@45.6540641,25.6032523,17z/data=!3m1!4b1!4m5!3m4!1s0x40b35b8682167e4b:0x36cf29abc12fb9ab!8m2!3d45.6540604!4d25.605441"
-                    >
-                        Strada 13 Decembrie, Nr 24, Ap 2,Mun Brasov (Langa
-                        statia de autobuz Onix)</a
-                    >
-                </h4>
-                <h4>
-                    Va asteptam de luni pana vineri intre orele 08:00 - 16:00
-                </h4>
+                <div class="contact-section">
+                    <h4 class="contact-section-titlte">
+                        <Phone size="24px" color="#4f4f4f" /> Mobil:
+                    </h4>
+                    <div class="contact-section-detail">
+                        <a class="contact-link" href="tel:+40-767-23-63-64"
+                            >0767 236 364 (Notar);</a
+                        >
+                        <a class="contact-link" href="tel:+40-773-80-66-47"
+                            >0773 806 647 (Secretariat);</a
+                        >
+                    </div>
+                </div>
+
+                <div class="contact-section">
+                    <h4 class="contact-section-titlte">
+                        <Email size="24px" color="#4f4f4f" /> Email:
+                    </h4>
+
+                    <div class="contact-section-detail">
+                        <a
+                            class="contact-link"
+                            href="mailto: notariliecristian@gmail.com"
+                            >notariliecristian@gmail.com</a
+                        >
+                    </div>
+                </div>
+                <div class="contact-section">
+                    <h4 class="contact-section-titlte">
+                        <MapMarker size="24px" color="#4f4f4f" /> Adresa:
+                    </h4>
+                    <div class="contact-section-detail">
+                        <a
+                            class="contact-link"
+                            href="https://www.google.com/maps/place/Bloc+2,+Strada+13+Decembrie+24,+Bra%C8%99ov+500199/@45.6540641,25.6032523,17z/data=!3m1!4b1!4m5!3m4!1s0x40b35b8682167e4b:0x36cf29abc12fb9ab!8m2!3d45.6540604!4d25.605441"
+                        >
+                            Strada 13 Decembrie, Nr 24, Ap 2,Mun Brasov (Langa
+                            statia de autobuz Onix)</a
+                        >
+                    </div>
+                </div>
+
+                <div class="contact-section">
+                    <h4 class="contact-section-titlte">
+                        <ClockTimeNine size="24px" color="#4f4f4f" /> Va asteptam
+                    </h4>
+                    <div class="contact-section-detail">
+                        <span class="calendar-text"
+                            >Luni - Miercuri: 9:00 - 17:00</span
+                        >
+                        <span class="calendar-text">Joi : 9:00 - 18:00</span>
+                        <span class="calendar-text">Vineri : 8:00 - 14:00</span>
+                        <span class="calendar-text"
+                            >Sambata : Doar cu programare</span
+                        >
+                        <span class="calendar-text">Duminica : Inchis</span>
+                    </div>
+                </div>
                 <h4>Pentru orice detalii nu ezitati sa ne contactati!</h4>
 
                 <div class="social-row">
@@ -70,8 +96,36 @@
 </div>
 
 <style>
+    .calendar-text {
+        color: #b76262;
+        font-weight: 400;
+        margin-bottom: 0;
+        font-size: 18px;
+    }
+    .contact-section-titlte {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 0%;
+        padding: 0;
+    }
+    .contact-section {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 10px;
+        margin-top: 20px;
+    }
+    .contact-section-detail {
+        display: flex;
+        flex-direction: column;
+    }
     .contact-link {
         color: #b76262;
+        font-weight: 400;
+        margin-bottom: 0;
+        font-size: 18px;
     }
     .social-row {
         display: flex;
@@ -145,7 +199,7 @@
         color: rgb(79, 79, 79);
         font-weight: 400;
         margin-bottom: 0;
-        font-size: 20px;
+        font-size: 18px;
     }
     a {
         color: #3500d3;
