@@ -36,13 +36,13 @@
         </div>
         <section class="content">
             <h1 class="smaller-width-header">
-                O baza solida pentru nevoile dvs legale
+                O baza solida pentru nevoile dumneavoastră legale in Brasov
             </h1>
             <h4>
                 Înțelegem nevoia de siguranță și eficiență în serviciun
                 notarial, iar asta ne face să oferim soluții legale sigure,
                 rapide și clare atât pentru dumneavoastră cât și pentru afacerea
-                pe care o aveți.
+                pe care o administrati.
             </h4>
             <!-- svelte-ignore a11y-click-events-have-key-events -->
             <div class="contact-button" on:click={() => scrollBot()}>
@@ -80,7 +80,7 @@
     h2 {
         margin: 0;
         padding: 0;
-        font-size: 48px;
+        font-size: 44px;
         font-weight: 200;
         line-height: 100%;
         color: #4f4f4f;
@@ -119,11 +119,11 @@
         margin-top: 20px;
         margin-left: 40px;
         width: 200px;
-        height: 70px;
+        height: 60px;
         background-color: #b76262;
         color: white;
-        font-size: 28px;
-        font-weight: 400;
+        font-size: 26px;
+        font-weight: 500;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -137,7 +137,7 @@
         background-color: #cb7777;
     }
     h1 {
-        font-size: 48px;
+        font-size: 38px;
         color: rgb(79, 79, 79);
         font-weight: 600;
         line-height: 120%;
@@ -145,18 +145,18 @@
         margin: 0 40px;
     }
     h4 {
-        font-size: 24px;
+        font-size: 22px;
         color: rgb(79, 79, 79);
         font-weight: 400;
 
         margin: 0 40px;
     }
     .big-logo {
-        width: 260px;
+        width: 240px;
     }
     .content {
         width: 60%;
-        padding-bottom: 100px;
+        padding-bottom: 40px;
     }
     .background-container {
         z-index: 1;

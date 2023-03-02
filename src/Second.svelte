@@ -81,11 +81,10 @@ darea de dată certă a înscrisurilor, etc.`,
         font-weight: 700;
         padding: 0;
         margin: 0;
-        margin-top: 20px;
+        margin-top: 100px;
     }
     .title-container {
         width: 90%;
-        height: 100px;
     }
     .page-container {
         width: 100vw;
@@ -106,15 +105,15 @@ darea de dată certă a înscrisurilor, etc.`,
         margin-bottom: 50px;
     }
     .card {
-        width: 360px;
-        height: 360px;
+        width: 320px;
+        height: 340px;
         background-color: white;
         box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px,
             rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
             rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
         display: flex;
         flex-direction: column;
-        padding: 20px;
+        padding: 15px;
     }
     .large-card {
         width: 90%;
@@ -124,7 +123,7 @@ darea de dată certă a înscrisurilor, etc.`,
             rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
             rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 
-        font-size: 24px;
+        font-size: 22px;
         color: rgb(79, 79, 79);
         font-weight: 600;
         padding: 20px;
@@ -136,7 +135,7 @@ darea de dată certă a înscrisurilor, etc.`,
         align-items: center;
         justify-content: flex-start;
         width: 100%;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
     }
     h4 {
         padding: 0;
@@ -148,7 +147,7 @@ darea de dată certă a înscrisurilor, etc.`,
     }
     .card-body {
         font-weight: 300;
-        font-size: 18px;
+        font-size: 16px;
 
         color: rgb(115, 115, 115);
     }

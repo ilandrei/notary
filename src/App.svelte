@@ -10,34 +10,20 @@
 	let height = size; // string | number
 	let color = "white"; // string
 	let showMobileButton = false;
-	let innerHeight = 0;
 	let scrollY = 0;
-
-	const scrollTop = () => {
-		showMobileButton = false;
-		window.scrollTo({
-			top: 0,
-			behavior: "smooth",
-		});
-	};
-	const scroll = () => {
-		showMobileButton = false;
-		window.scrollTo({
-			top: innerHeight - 40,
-			behavior: "smooth",
-		});
-	};
-	const scrollBot = () => {
-		showMobileButton = false;
-		window.scrollTo({
-			top: 100000,
-			behavior: "smooth",
-		});
-	};
 </script>
 
-<svelte:window bind:innerHeight bind:scrollY />
-
+<!-- Google Tag Manager (noscript) -->
+<!-- svelte-ignore a11y-missing-attribute -->
+<noscript
+	><iframe
+		src="https://www.googletagmanager.com/ns.html?id=GTM-M77J8GN"
+		height="0"
+		width="0"
+		style="display:none;visibility:hidden"
+	/></noscript
+>
+<!-- End Google Tag Manager (noscript) -->
 <div class="nav-container">
 	<div class="button-row">
 		<div class="logo-container">
@@ -55,13 +41,13 @@
 			{/if}
 		</div>
 		<div class="button-container">
-			<!-- svelte-ignore a11y-click-events-have-key-events -->
-			<div on:click={() => scrollTop()} class="nav-link">Prezentare</div>
-			<!-- svelte-ignore a11y-click-events-have-key-events -->
-			<div on:click={() => scroll()} class="nav-link">Servicii</div>
-			<!-- svelte-ignore a11y-click-events-have-key-events -->
-			<div on:click={() => scrollBot()} class="nav-link">Contact</div>
+			<a href="#home" class="nav-link">Prezentare</a>
+
+			<a href="#services" class="nav-link">Servicii</a>
+
+			<a href="#contact" class="nav-link">Contact</a>
 		</div>
+
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
 		<div
 			class="button-container-mobile"
@@ -74,23 +60,26 @@
 {#if showMobileButton}
 	<div class="mobile-nav-container">
 		<div class="mobile-nav-link">
-			<!-- svelte-ignore a11y-click-events-have-key-events -->
-			<div on:click={() => scrollTop()} class="nav-link">Home</div>
+			<a href="#home" class="nav-link">Prezentare</a>
 		</div>
 		<div class="mobile-nav-link">
-			<!-- svelte-ignore a11y-click-events-have-key-events -->
-			<div on:click={() => scroll()} class="nav-link">Servicii</div>
+			<a href="#services" class="nav-link">Servicii</a>
 		</div>
 		<div class="mobile-nav-link">
-			<!-- svelte-ignore a11y-click-events-have-key-events -->
-			<div on:click={() => scrollBot()} class="nav-link">Contact</div>
+			<a href="#contact" class="nav-link">Contact</a>
 		</div>
 	</div>
 {/if}
 <main>
-	<First id="home" />
-	<Second id="services" />
-	<Third id="contact" />
+	<section id="home">
+		<First />
+	</section>
+	<section id="services">
+		<Second />
+	</section>
+	<section id="contact">
+		<Third />
+	</section>
 </main>
 
 <style>
@@ -167,7 +156,7 @@
 	.mobile-nav-container {
 		display: none;
 		position: fixed;
-		top: 100px;
+		top: 70px;
 		height: 270px;
 		width: 100%;
 		background-color: rgba(0, 0, 0, 0.7);
