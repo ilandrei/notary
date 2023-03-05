@@ -36,13 +36,13 @@
         </div>
         <section class="content">
             <h1 class="smaller-width-header">
-                O bază solidă pentru nevoile dumneavoastră legale în Brasov
+                O bază solidă pentru nevoile dumneavoastră legale în Brașov
             </h1>
             <h4>
                 Înțelegem nevoia de siguranță și eficiență în serviciul
                 notarial, iar asta ne face să oferim soluții legale sigure,
                 rapide și clare atât pentru dumneavoastră cât și pentru afacerea
-                pe care o administrati.
+                pe care o administrați.
             </h4>
             <!-- svelte-ignore a11y-click-events-have-key-events -->
             <div class="contact-button" on:click={() => scrollBot()}>

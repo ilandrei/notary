@@ -69,7 +69,7 @@
                         <span class="calendar-text"
                             >Sambătă : Doar cu programare</span
                         >
-                        <span class="calendar-text">Duminică : Inchis</span>
+                        <span class="calendar-text">Duminică : Închis</span>
                     </div>
                 </div>
                 <h4>Pentru orice detalii nu ezitați să ne contactați!</h4>

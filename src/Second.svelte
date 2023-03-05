@@ -10,25 +10,22 @@ Contract de Împrumut, Contract de Închiriere, etc.`,
         },
         {
             title: "Succesiuni",
-            body: `Dezbatere succesiunii este o procedură necesară care poate fi soluționată în mod eficient
+            body: `Dezbaterea succesiunii este o procedură necesară care poate fi soluționată în mod eficient
 urmând pașii indicați și explicați în detaliu de către notarul public, care se va ocupa de
 formalitățile necesare soluționării procedurii succesorale și eliberării Certificatului de
 moștenitor.`,
         },
         {
-            title: "Declarații si procuri",
-            body: `Această categorie are in componenta de la declaratii simple precum cele necesare la infiintarea societatilor pana la acorduri complexe exprimate de catre parti in forma autentica precum si procuri`,
+            title: "Declarații și procuri",
+            body: `Această categorie are în componență de la declarații simple precum cele necesare la înființarea societăților până la acorduri complexe exprimate de către părți în formă autentică, precum și procuri de orice tip.`,
         },
         {
             title: "Divorțuri",
-            body: `Notarul public este abilitat, in baza art. 375 din Noul Cod Civil, sa constate divortul prin acordul sotilor si sa elibereze certificatul de divort.`,
+            body: `Notarul public este abilitat, în baza art. 375 din Noul Cod Civil, să constate divorțul prin acordul soților și să elibereze certificatul de divorț.`,
         },
         {
             title: "Convenții matrimoniale",
-            body: `Deși regimul matrimonial al comunității legale de bunuri reprezintă regula în materia
-raporturilor patrimoniale ale soților, legislația civilă permite ca soții sau viitorii soți să poată
-opta pentru regimul comunității convenționale de bunuri sau al separației de bunuri, prin
-încheierea unei convenții matrimoniale.`,
+            body: `Deși regimul matrimonial al comunității legale de bunuri reprezintă regula în materia raporturilor patrimoniale ale soților, legislația civilă permite ca soții sau viitorii soți să poată opta pentru regimul comunității convenționale de bunuri sau cel al separației de bunuri, prin încheierea unei convenții matrimoniale.`,
         },
         {
             title: "Testamente",
@@ -148,6 +145,7 @@ darea de dată certă a înscrisurilor, etc.`,
     .card-body {
         font-weight: 300;
         font-size: 16px;
+        text-align: justify;
 
         color: rgb(115, 115, 115);
     }
