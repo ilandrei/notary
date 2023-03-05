@@ -16,15 +16,15 @@ formalitățile necesare soluționării procedurii succesorale și eliberării C
 moștenitor.`,
         },
         {
-            title: "Declaratii si procuri",
-            body: `Aceasta categorie are in componenta de la declaratii simple precum cele necesare la infiintarea societatilor pana la acorduri complexe exprimate de catre parti in forma autentica precum si procuri`,
+            title: "Declarații si procuri",
+            body: `Această categorie are in componenta de la declaratii simple precum cele necesare la infiintarea societatilor pana la acorduri complexe exprimate de catre parti in forma autentica precum si procuri`,
         },
         {
-            title: "Divorturi",
+            title: "Divorțuri",
             body: `Notarul public este abilitat, in baza art. 375 din Noul Cod Civil, sa constate divortul prin acordul sotilor si sa elibereze certificatul de divort.`,
         },
         {
-            title: "Conventii matrimoniale",
+            title: "Convenții matrimoniale",
             body: `Deși regimul matrimonial al comunității legale de bunuri reprezintă regula în materia
 raporturilor patrimoniale ale soților, legislația civilă permite ca soții sau viitorii soți să poată
 opta pentru regimul comunității convenționale de bunuri sau al separației de bunuri, prin

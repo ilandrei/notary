@@ -209,5 +209,14 @@
 		.mobile-nav-container {
 			display: flex;
 		}
+		.nav-container {
+			height: 60px;
+		}
+		.button-row {
+			height: 60px;
+		}
+		.mobile-nav-container {
+			top: 60px;
+		}
 	}
 </style>

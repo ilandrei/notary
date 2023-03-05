@@ -43,7 +43,7 @@
                 </div>
                 <div class="contact-section">
                     <h4 class="contact-section-titlte">
-                        <MapMarker size="24px" color="#4f4f4f" /> Adresa:
+                        <MapMarker size="24px" color="#4f4f4f" /> Adresă:
                     </h4>
                     <div class="contact-section-detail">
                         <a
@@ -58,7 +58,7 @@
 
                 <div class="contact-section">
                     <h4 class="contact-section-titlte">
-                        <ClockTimeNine size="24px" color="#4f4f4f" /> Program
+                        <ClockTimeNine size="24px" color="#4f4f4f" /> Program:
                     </h4>
                     <div class="contact-section-detail">
                         <span class="calendar-text"
@@ -67,15 +67,15 @@
                         <span class="calendar-text">Joi : 9:00 - 18:00</span>
                         <span class="calendar-text">Vineri : 8:00 - 14:00</span>
                         <span class="calendar-text"
-                            >Sambata : Doar cu programare</span
+                            >Sambătă : Doar cu programare</span
                         >
-                        <span class="calendar-text">Duminica : Inchis</span>
+                        <span class="calendar-text">Duminică : Inchis</span>
                     </div>
                 </div>
-                <h4>Pentru orice detalii nu ezitati sa ne contactati!</h4>
+                <h4>Pentru orice detalii nu ezitați să ne contactați!</h4>
 
                 <div class="social-row">
-                    <span>Ne gasiti si pe:</span>
+                    <span>Ne găsiți și pe:</span>
                     <a
                         href="https://www.instagram.com/notariatbrasov/"
                         class="social-link"
@@ -84,7 +84,7 @@
                     </a>
 
                     <a
-                        href="https://www.instagram.com/notariatbrasov/"
+                        href="https://www.facebook.com/profile.php?id=100090845827143"
                         class="social-link"
                     >
                         <Facebook size="24px" color="#b76262" />

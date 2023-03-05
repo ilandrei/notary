@@ -36,10 +36,10 @@
         </div>
         <section class="content">
             <h1 class="smaller-width-header">
-                O baza solida pentru nevoile dumneavoastră legale in Brasov
+                O bază solidă pentru nevoile dumneavoastră legale în Brasov
             </h1>
             <h4>
-                Înțelegem nevoia de siguranță și eficiență în serviciun
+                Înțelegem nevoia de siguranță și eficiență în serviciul
                 notarial, iar asta ne face să oferim soluții legale sigure,
                 rapide și clare atât pentru dumneavoastră cât și pentru afacerea
                 pe care o administrati.
@@ -80,7 +80,7 @@
     h2 {
         margin: 0;
         padding: 0;
-        font-size: 44px;
+        font-size: 42px;
         font-weight: 200;
         line-height: 100%;
         color: #4f4f4f;
@@ -152,7 +152,7 @@
         margin: 0 40px;
     }
     .big-logo {
-        width: 240px;
+        width: 220px;
     }
     .content {
         width: 60%;
