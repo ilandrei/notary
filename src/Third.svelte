@@ -142,7 +142,7 @@
     }
     .background-container {
         z-index: 1;
-        background-image: url("https://api.mapbox.com/styles/v1/mapbox/light-v10/static/pin-s+555555(25.6053,45.6539)/25.604,45.654,16.55,0/1280x1080@2x?access_token=pk.eyJ1IjoiaWxhbmRyZWkiLCJhIjoiY2xidjkyZXFmMDV4YTNwbzFpdXk3NXh4NiJ9.6kgPKWMg3Sn0bAPNi4JZIQ");
+        background-image: url("https://api.mapbox.com/styles/v1/mapbox/light-v10/static/pin-s+555555(25.6053,45.6539)/25.603,45.653,16.55,0/1280x1080@2x?access_token=pk.eyJ1IjoiaWxhbmRyZWkiLCJhIjoiY2xidjkyZXFmMDV4YTNwbzFpdXk3NXh4NiJ9.6kgPKWMg3Sn0bAPNi4JZIQ");
         background-size: cover;
 
         background-repeat: no-repeat;
@@ -171,7 +171,7 @@
         background: #f8f4f4;
         background: linear-gradient(
             90deg,
-            rgba(248, 244, 244, 1) 40%,
+            rgba(248, 244, 244, 0.9) 40%,
             rgba(248, 244, 244, 0.2) 60%
         );
     }
@@ -210,5 +210,31 @@
         height: 60%;
         border-radius: 5px;
         padding: 10px;
+    }
+    @media screen and (max-width: 800px) {
+        .page-gradient {
+            background: #f8f4f4;
+            background: linear-gradient(
+                rgba(248, 244, 244, 0.9) 30%,
+                rgba(248, 244, 244, 0.6) 60%
+            );
+        }
+
+        .first-section-half {
+            width: 80%;
+        }
+        section {
+            align-items: baseline;
+        }
+
+        .background-container {
+            background-image: url("https://api.mapbox.com/styles/v1/mapbox/light-v10/static/pin-s+555555(25.6053,45.6539)/25.606,45.655,16.55,0/1280x1080@2x?access_token=pk.eyJ1IjoiaWxhbmRyZWkiLCJhIjoiY2xidjkyZXFmMDV4YTNwbzFpdXk3NXh4NiJ9.6kgPKWMg3Sn0bAPNi4JZIQ");
+        }
+    }
+
+    @media screen and (max-width: 1200px) {
+        .first-section-half {
+            width: 80%;
+        }
     }
 </style>

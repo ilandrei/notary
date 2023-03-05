@@ -151,4 +151,20 @@ darea de dată certă a înscrisurilor, etc.`,
 
         color: rgb(115, 115, 115);
     }
+    @media screen and (max-width: 800px) {
+        .card {
+            width: 45%;
+            height: auto;
+            min-height: 320px;
+        }
+        .card-body {
+            font-size: 14px;
+        }
+        .card-container {
+            width: 95%;
+        }
+        .large-card {
+            font-size: 18px;
+        }
+    }
 </style>

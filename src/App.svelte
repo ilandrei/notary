@@ -28,7 +28,7 @@
 <div class="nav-container">
 	<div class="button-row">
 		<div class="logo-container">
-			<img src="logo.png" alt="unnpr-logo" height="50px" width="50px" />
+			<img src="logo.webp" alt="unnpr-logo" height="50px" width="50px" />
 
 			{#if scrollY >= 200}
 				<div

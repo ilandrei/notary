@@ -25,7 +25,7 @@
     <div class="page-gradient" />
     <div class="page-content">
         <div class="title-row" transition:fly={{ y: 100, duration: 1000 }}>
-            <img src="./logo.png" alt="logo" class="big-logo" />
+            <img src="./logo.webp" alt="logo" class="big-logo" />
             <div class="title-text">
                 <h2>Birou</h2>
                 <h2>Individual</h2>
@@ -160,7 +160,7 @@
     }
     .background-container {
         z-index: 1;
-        background-image: url("../notary2.jpeg");
+        background-image: url("../notary.webp");
         background-size: cover;
 
         background-repeat: no-repeat;
@@ -188,7 +188,7 @@
         background: #f8f4f4;
         background: linear-gradient(
             90deg,
-            rgba(248, 244, 244, 1) 40%,
+            rgba(248, 244, 244, 0.9) 40%,
             rgba(248, 244, 244, 0.2) 80%
         );
     }
@@ -196,5 +196,39 @@
         width: 100vw;
         height: 100vh;
         position: relative;
+    }
+    @media screen and (max-width: 1200px) {
+        .content {
+            width: 80%;
+        }
+    }
+    @media screen and (max-width: 800px) {
+        .page-gradient {
+            background: #f8f4f4;
+            background: linear-gradient(
+                rgba(248, 244, 244, 0.9) 40%,
+                rgba(248, 244, 244, 0.4) 100%
+            );
+        }
+        .background-container {
+            background-image: url("../notary-mob.webp");
+        }
+        .content {
+            width: 100%;
+        }
+
+        .big-logo {
+            width: 200px;
+        }
+
+        .page-content {
+            padding: 70px 30px 0 30px;
+        }
+    }
+
+    @media screen and (max-width: 800px) {
+        h2 {
+            font-size: 36px;
+        }
     }
 </style>
