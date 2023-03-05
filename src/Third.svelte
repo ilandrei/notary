@@ -259,18 +259,21 @@
             padding: 80px 10px;
         }
     }
-    @media screen and (max-height: 700px) {
+    @media screen and (max-height: 800px) {
         .background-container {
-            height: 700px;
+            height: 800px;
         }
         .page-content {
-            height: 700px;
+            height: 800px;
         }
         .page-gradient {
-            height: 700px;
+            height: 800px;
         }
         .page-container {
-            height: 700px;
+            height: 800px;
+        }
+        section {
+            align-items: baseline;
         }
     }
 </style>
