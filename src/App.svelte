@@ -24,6 +24,7 @@
 		style="display:none;visibility:hidden"
 	/></noscript
 >
+
 <!-- End Google Tag Manager (noscript) -->
 <div class="nav-container">
 	<div class="button-row">
@@ -60,13 +61,31 @@
 </div>
 {#if showMobileButton}
 	<div class="mobile-nav-container">
-		<div class="mobile-nav-link">
+		<!-- svelte-ignore a11y-click-events-have-key-events -->
+		<div
+			class="mobile-nav-link"
+			on:click={() => {
+				showMobileButton = false;
+			}}
+		>
 			<a href="#home" class="nav-link">Prezentare</a>
 		</div>
-		<div class="mobile-nav-link">
+		<!-- svelte-ignore a11y-click-events-have-key-events -->
+		<div
+			class="mobile-nav-link"
+			on:click={() => {
+				showMobileButton = false;
+			}}
+		>
 			<a href="#services" class="nav-link">Servicii</a>
 		</div>
-		<div class="mobile-nav-link">
+		<!-- svelte-ignore a11y-click-events-have-key-events -->
+		<div
+			class="mobile-nav-link"
+			on:click={() => {
+				showMobileButton = false;
+			}}
+		>
 			<a href="#contact" class="nav-link">Contact</a>
 		</div>
 	</div>

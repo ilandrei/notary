@@ -166,6 +166,7 @@
         background-repeat: no-repeat;
         width: 100vw;
         height: 100vh;
+
         position: absolute;
     }
 
@@ -224,11 +225,86 @@
         .page-content {
             padding: 70px 30px 0 30px;
         }
-    }
-
-    @media screen and (max-width: 800px) {
         h2 {
             font-size: 36px;
+        }
+        .material-symbols-outlined {
+            font-size: 40px;
+            height: 60px;
+        }
+        .material-symbols-outlined:hover {
+            font-size: 50px;
+        }
+        footer {
+            height: 50px;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        h1 {
+            margin: 0;
+            margin-top: 20px;
+            font-size: 28px;
+        }
+        h2 {
+            font-size: 24px;
+        }
+        h4 {
+            margin: 0;
+        }
+        .big-logo {
+            width: 100px;
+        }
+        .contact-button {
+            margin-left: 0px;
+            font-size: 20px;
+            width: 160px;
+            height: 50px;
+        }
+        .title-row {
+            gap: 10px;
+        }
+        .content {
+            padding-bottom: 20px;
+        }
+    }
+
+    @media screen and (max-width: 400px) {
+        h1 {
+            margin: 0;
+            margin-top: 10px;
+            font-size: 24px;
+        }
+        h2 {
+            font-size: 20px;
+        }
+        .big-logo {
+            width: 80px;
+        }
+        h4 {
+            font-size: 18px;
+        }
+        .content {
+            padding-bottom: 20px;
+        }
+    }
+    @media screen and (max-height: 800px) {
+        .background-container {
+            height: 800px;
+        }
+        .page-content {
+            height: 800px;
+        }
+        .page-gradient {
+            height: 800px;
+        }
+        .page-container {
+            height: 800px;
+        }
+        .material-symbols-outlined {
+            opacity: 0;
+
+            pointer-events: none;
         }
     }
 </style>

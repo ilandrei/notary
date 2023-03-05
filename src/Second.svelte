@@ -166,5 +166,23 @@ darea de dată certă a înscrisurilor, etc.`,
         .large-card {
             font-size: 18px;
         }
+
+        h1 {
+            font-size: 46px;
+        }
+    }
+    @media screen and (max-width: 600px) {
+        h1 {
+            font-size: 40px;
+        }
+        .card {
+            width: 95%;
+        }
+        .card-container {
+            gap: 10px 0;
+        }
+        .card-body {
+            font-size: 18px;
+        }
     }
 </style>

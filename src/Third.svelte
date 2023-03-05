@@ -58,7 +58,7 @@
 
                 <div class="contact-section">
                     <h4 class="contact-section-titlte">
-                        <ClockTimeNine size="24px" color="#4f4f4f" /> Va asteptam
+                        <ClockTimeNine size="24px" color="#4f4f4f" /> Program
                     </h4>
                     <div class="contact-section-detail">
                         <span class="calendar-text"
@@ -212,6 +212,9 @@
         padding: 10px;
     }
     @media screen and (max-width: 800px) {
+        h1 {
+            font-size: 46px;
+        }
         .page-gradient {
             background: #f8f4f4;
             background: linear-gradient(
@@ -225,16 +228,49 @@
         }
         section {
             align-items: baseline;
+            width: 100%;
         }
 
         .background-container {
             background-image: url("https://api.mapbox.com/styles/v1/mapbox/light-v10/static/pin-s+555555(25.6053,45.6539)/25.606,45.655,16.55,0/1280x1080@2x?access_token=pk.eyJ1IjoiaWxhbmRyZWkiLCJhIjoiY2xidjkyZXFmMDV4YTNwbzFpdXk3NXh4NiJ9.6kgPKWMg3Sn0bAPNi4JZIQ");
         }
     }
+    @media screen and (max-width: 600px) {
+        h1 {
+            font-size: 40px;
+        }
 
-    @media screen and (max-width: 1200px) {
         .first-section-half {
-            width: 80%;
+            width: 100%;
+        }
+        .contact-link {
+            font-size: 16px;
+        }
+        h4 {
+            font-size: 16px;
+        }
+        .social-row {
+            font-size: 16px;
+        }
+        .calendar-text {
+            font-size: 16px;
+        }
+        .page-content {
+            padding: 80px 10px;
+        }
+    }
+    @media screen and (max-height: 700px) {
+        .background-container {
+            height: 700px;
+        }
+        .page-content {
+            height: 700px;
+        }
+        .page-gradient {
+            height: 700px;
+        }
+        .page-container {
+            height: 700px;
         }
     }
 </style>
