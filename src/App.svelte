@@ -36,7 +36,7 @@
 					class="logo-name"
 					transition:fly={{ y: 30, duration: 1000 }}
 				>
-					<h5>Birou individual notarial</h5>
+					<h5 class="secondary-h5">Birou individual notarial</h5>
 					<hr />
 					<h5 style="color:white;font-weight:200">Ilie Cristian</h5>
 				</div>
@@ -55,7 +55,7 @@
 			class="button-container-mobile"
 			on:click={() => (showMobileButton = !showMobileButton)}
 		>
-			<Menu {color} size="1.4rem" width="1.4rem" height="1.4rem" />
+			<Menu {color} size="1.2rem" width="1.2rem" height="1.2rem" />
 		</div>
 	</div>
 </div>
@@ -193,6 +193,14 @@
 		cursor: pointer;
 	}
 
+	@media screen and (max-width: 400px) {
+		.secondary-h5 {
+			font-size: 16px;
+		}
+		.button-row {
+			padding: 0 12px;
+		}
+	}
 	@media screen and (max-width: 800px) {
 		.button-container {
 			display: none;
