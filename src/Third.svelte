@@ -66,9 +66,7 @@
                         >
                         <span class="calendar-text">Joi : 9:00 - 18:00</span>
                         <span class="calendar-text">Vineri : 8:00 - 14:00</span>
-                        <span class="calendar-text"
-                            >Sambătă : Doar cu programare</span
-                        >
+                        <span class="calendar-text">Sambătă : Închis</span>
                         <span class="calendar-text">Duminică : Închis</span>
                     </div>
                 </div>
